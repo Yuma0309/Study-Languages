@@ -22,10 +22,10 @@ try {
   $db = getDb();
   $stt = $db->prepare('SELECT * FROM book ORDER BY published DESC');
   $stt->execute();
-  while($row = $stt->fetch(PDO::FETCH_ASSOC)) {
+  // while($row = $stt->fetch(PDO::FETCH_ASSOC)) {
 
-  // $stt->setFetchMode(PDO::FETCH_ASSOC);
-  // foreach($stt as $row) { 
+  $stt->setFetchMode(PDO::FETCH_ASSOC);
+  foreach($stt as $row) { 
 ?>
   <tr>
     <td><?=e($row['isbn']) ?></td>
