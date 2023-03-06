@@ -1,5 +1,5 @@
 <?php
-require_once 'Person.php';
+require_once 'Person4.php';
 
 class BusinessPerson extends Person {
 // final class BusinessPerson extends Person {
