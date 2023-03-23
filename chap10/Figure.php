@@ -1,6 +1,6 @@
 <?php
-class Figure {
-// abstract class Figure {
+// class Figure {
+abstract class Figure {
   protected float $width;
   protected float $height;
 
