@@ -13,13 +13,13 @@ class MyMail {
     return $this->headers[$name];
   }
 
-  // public function __isset(string $name) : bool {
-  //   return isset($this->headers[$name]);
-  // }
+  public function __isset(string $name) : bool {
+    return isset($this->headers[$name]);
+  }
 
-  // public function __unset(string $name) : void {
-  //   unset($this->headers[$name]);
-  // }
+  public function __unset(string $name) : void {
+    unset($this->headers[$name]);
+  }
 
   // public function __call(string $name, array $args) : mixed {
   //   if (count($args) === 0) {
