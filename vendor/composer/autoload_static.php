@@ -16,6 +16,10 @@ class ComposerStaticInit2aaa705c806414435ae5b08f9c210eec
     );
 
     public static $prefixLengthsPsr4 = array (
+        'w' => 
+        array (
+            'wings\\selfphp\\' => 14,
+        ),
         'P' => 
         array (
             'Psr\\Http\\Message\\' => 17,
@@ -36,6 +40,10 @@ class ComposerStaticInit2aaa705c806414435ae5b08f9c210eec
     );
 
     public static $prefixDirsPsr4 = array (
+        'wings\\selfphp\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/lib/wings/selfphp',
+        ),
         'Psr\\Http\\Message\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/http-factory/src',
